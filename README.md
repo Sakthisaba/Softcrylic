@@ -1,9 +1,8 @@
 # Softcrylic 
-<br>
 
 <img src="https://user-images.githubusercontent.com/75113031/232208650-82ce1c3d-8c59-45b3-bd16-2d3ed8538898.png" width="30px" hieght="30px"><h3 style='color:red;'>Note  :  We couldn't access the project drive link for 4 weeks.Only by april 10th we got access to the drive link.But i did my best in this project.</h3>
-<br>
-## Hi there, I'm Chinna sakthi 
+
+# Hi there, I'm Chinna sakthi 
 EmailID  <chinnasakthi.k.2019.cse@rajalakshmi.edu.in> <br>
 LinkedIn <https://www.linkedin.com/in/chinna-sakthi-k-482b4b1a9/>
 
