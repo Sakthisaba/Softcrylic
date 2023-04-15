@@ -1,6 +1,8 @@
 # Softcrylic
 <br>
-<p style="color:red;">Note :We couldn't access the project drive link for 4 weeks.Only by april 10th we got access to the drive link.But i did my best in this project.</p>
+
+
+<h3 style='color:red;'>Note  :  We couldn't access the project drive link for 4 weeks.Only by april 10th we got access to the drive link.But i did my best in this project.</h3>
 
 |     TECH | STACK     |
 | ---      | ---       |
