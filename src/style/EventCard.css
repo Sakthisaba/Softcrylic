@@ -1,0 +1,12 @@
+.card{
+    background-color: #152a46;
+}
+.home{
+    background-color: #161b22;
+}
+
+.card-grid{
+    background-color: #161b22;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
