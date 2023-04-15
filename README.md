@@ -1,8 +1,7 @@
-# Softcrylic
+# Softcrylic - Community EventManagement
 <br>
-
-
-<h3 style='color:red;'>Note  :  We couldn't access the project drive link for 4 weeks.Only by april 10th we got access to the drive link.But i did my best in this project.</h3>
+## under construction
+<img src="https://user-images.githubusercontent.com/75113031/232208650-82ce1c3d-8c59-45b3-bd16-2d3ed8538898.png" width="20px" hieght="20px"><h3 style='color:red;'>Note  :  We couldn't access the project drive link for 4 weeks.Only by april 10th we got access to the drive link.But i did my best in this project.</h3>
 
 |     TECH | STACK     |
 | ---      | ---       |
