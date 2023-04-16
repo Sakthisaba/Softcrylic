@@ -27,5 +27,8 @@ community either offline or online.
 ![Screenshot Softcrylic](https://user-images.githubusercontent.com/75113031/232203311-815dab15-d86e-4b7e-8766-c10358bfb7f9.png)
 ## Login Page
 ![Screenshot login](https://user-images.githubusercontent.com/75113031/232203326-fe78f6b5-c784-44aa-8f41-311936bf2082.png)
+## Event Page
+![image](https://user-images.githubusercontent.com/75113031/232274376-6352d71c-556f-4b2c-a800-8792c84b2393.png)
+
 
 
