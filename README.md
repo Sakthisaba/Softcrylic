@@ -32,3 +32,44 @@ community either offline or online.
 
 
 
+## No Sql Model
+1.User
+```
+const Userschema = new mongoose.Schema({
+    name:String,
+    email:String,
+    password:String,
+    role :String
+})
+
+```
+2.Community
+```
+const CommunitySchema= new mongoose.Schema({
+    Name:String,
+    Events:[mongoose.Types.ObjectId],
+    Admin:[mongoose.Types.ObjectId],
+
+})
+```
+3.Events
+```
+const EventSchema = new mongoose.Schema({
+    title:{
+        type:String,
+        required:true    
+    },
+    summary:{
+        type:String,
+        required:true   
+    },
+    communityID :mongoose.Types.ObjectId,
+    time:Date
+    ,
+    organizer:[mongoose.Types.ObjectId],
+    participansts:[mongoose.Types.ObjectId]
+       
+    
+})
+
+```
