@@ -55,10 +55,12 @@ export default function Login()
         password:password
       }
     },form).then((res)=>{
-        if(res.status=='success')
+      console.log("redirect")
+        if(res!='failure')
         {
-            localStorage.setItem('User', res.user);
-            // window.location.href='/'
+            localStorage.setItem('User', res);
+            console.log(res)
+             window.location.href='/'
         }
         else
         {

@@ -5,7 +5,7 @@ import '../style/EventCard.css'
 function Home()
 {
 
-    return(<div className='home'><Nav />
+    return(<div className='home'>
     <EventCard></EventCard></div>
        
     )

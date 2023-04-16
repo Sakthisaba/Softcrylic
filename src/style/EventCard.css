@@ -9,4 +9,5 @@
     background-color: #161b22;
     display: grid;
     grid-template-columns: auto auto auto;
+    grid-row-gap:20px;
 }

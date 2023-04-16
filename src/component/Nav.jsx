@@ -11,10 +11,14 @@ import {
   } from '@chakra-ui/react'
 
 
-  
+
   export  default  function Nav () {
+
     const isDesktop = useBreakpointValue({ base: false, lg: true })
-    return (
+    const eventPage = () =>{
+     window.location.href='/event'
+    }
+    return (<div className='navbar'>
       <Box as="section" pb={{ base: '12', md: '24' }}>
         <Box as="nav" bg="bg-surface" boxShadow="sm">
           <Container py={{ base: '4', lg: '5' }}>
@@ -23,16 +27,19 @@ import {
               {isDesktop ? (
                 <Flex justify="space-between" flex="1">
                   <ButtonGroup variant="link" spacing="8">
-                    {['Community','Events', 'About us'].map((item) => (
-                      <Button key={item}>{item}</Button>
-                    ))}
+                  
+                    
+                      <Button >Your Community</Button>
+                      <Button onClick={eventPage}>Events</Button>
+                      <Button>All Communiity</Button>
+                   
                   </ButtonGroup>
-                 
-                  <HStack spacing="3" ml={'7'}>
+                  {localStorage.getItem('User')=='undefined'? <HStack spacing="3" ml={'7'}>
                     <Button colorScheme='blue'>Sign in</Button>
                     <Text color='white'>or</Text>
                     <Button variant="link">Sign up</Button>
-                  </HStack>
+                  </HStack>:<> <Button colorScheme='blue'>Log Out</Button></>}
+                  
                 </Flex>
               ) : (
                 <IconButton
@@ -44,6 +51,6 @@ import {
             </HStack>
           </Container>
         </Box>
-      </Box>
+      </Box></div>
     )
   }

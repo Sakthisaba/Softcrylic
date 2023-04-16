@@ -3,7 +3,7 @@ import game from  '../assets/gmae.jpg'
 import sport from  '../assets/sport.jpg'
 import science from  '../assets/science.jpg'
 import { Card, CardHeader, Spacer,CardBody,Heading,Stack,Text,StackDivider,Box,ButtonGroup,Image,Divider,CardFooter,Button, Center, Flex } from '@chakra-ui/react'
-function EventCard(card_details)
+function EventCard()
 {
     return(<div className='card-grid'>
   <Card maxW='sm'  >

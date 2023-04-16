@@ -20,14 +20,14 @@ app.use(parse.urlencoded({ extended: false }))
 
 
 app.get('/auth',function(req,res){
-    const email = req.body.email;
-    const password = req.body.password;
+    const email = req.query.email;
+    const password =  req.query.password;
     console.log(req.query.email)
     User.find({email:email})
     .then((result)=>{
       
        if(result.length==0){
-        //  res.send("Wrong Information,Please try again !<a href='/login'>back </a>")
+        res.send("failure")
          console.log("in 1")
        }
        else{
@@ -40,12 +40,13 @@ app.get('/auth',function(req,res){
                      console.log("Correct passwoord")
                     //  res.cookie("name",req.body.name, {expire: 4000000 + Date.now()})
                      console.log("Cookie created")
-                     res.send(user)
+                     const response = {"name":user.name,"role":user.role}
+                     res.send(response)
   
                     }
                  else{
     
-                     res.send("Wrong Information,Please try again")
+                     res.send("failure")
                     }
                  }
   
@@ -59,4 +60,12 @@ app.post('/signup',function(req,res){
     let password = req.body.password;
 })
 
+app.get('/fetchEvents',function(req,res)
+{
+    Event.find().then((event)=>{
+        
+        res.send(JSON.stringify(event))
+    })
 
+})
+app.get('/admin')

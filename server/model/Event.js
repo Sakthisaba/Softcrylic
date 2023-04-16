@@ -9,6 +9,9 @@ const EventSchema = new mongoose.Schema({
         type:String,
         required:true   
     },
+    communityID :mongoose.Types.ObjectId,
+    time:Date
+    ,
     organizer:[mongoose.Types.ObjectId],
     participansts:[mongoose.Types.ObjectId]
        
